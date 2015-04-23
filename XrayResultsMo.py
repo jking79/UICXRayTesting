@@ -351,7 +351,7 @@ def ConversionPlot(nrocs,output):
                             mu_mo.append(meanmo)
                         elif "Sigma_Mo" in line[k]:
                             words =  re.split(':\t',line[k])
-                            sigmaMo = words[1].strip('\n') 
+                            sigmamo = words[1].strip('\n') 
                             sig_mo.append(sigmamo)   
                     else:
                         if "Mean_"+material in line[k]:
